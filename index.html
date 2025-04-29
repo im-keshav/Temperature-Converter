@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Temperature Converter</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <div class="converter-box">
+            <h1>Temperature Converter</h1>
+            <div class="image-container">
+                <img src="temp.png" alt="Temperature Icon">
+            </div>
+            <div class="temperature-scale">
+                <div class="scale-container">
+                    <div class="scale-marks">
+                        <span>-100°C</span>
+                        <span>-50°C</span>
+                        <span>0°C</span>
+                        <span>50°C</span>
+                        <span>100°C</span>
+                    </div>
+                    <div class="scale-bar">
+                        <div class="scale-fill"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="converter">
+                <div class="input-group">
+                    <input type="number" id="celsius" placeholder="Celsius">
+                    <label>°C</label>
+                </div>
+                <div class="input-group">
+                    <input type="number" id="fahrenheit" placeholder="Fahrenheit">
+                    <label>°F</label>
+                </div>
+                <div class="input-group">
+                    <input type="number" id="kelvin" placeholder="Kelvin">
+                    <label>K</label>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html> 
